@@ -1,0 +1,36 @@
+- profile:
+  initials: UC
+  name: Usman Chaudhary
+  email: usmanc80@gmail.com
+  profession: Frontend Engineer
+  image: images/profile.jpg
+  location: San Francisco Bay Area, USA
+  relocation: true
+  company: Lift Agency
+  for_hire: true
+  focus: Learning PWAs
+  focus_url: https://gatsbyjs.org
+  about: |
+    With 6+ years of web development experience with a focus on designing and coding UIs for small startups to enterprise level business. Proven ability to leverage full-stack expertise to build interactive and user-centered website designs for desktop/tablet/mobile. I Specialize in ReactJS and all things Javascript to build reusable components and app functionality.
+
+  skills:
+    - JavaScript
+    - HTML / CSS
+    - NodeJS
+    - Ruby on Rails
+    - Adobe Experience Manager - AEM
+  tools:
+    - React
+    - Redux
+    - Gatsby
+    - Wordpress
+    - VSCode
+    - Jest
+    - SASS
+    - Heroku
+
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 10
