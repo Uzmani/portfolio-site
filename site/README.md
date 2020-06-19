@@ -1,4 +1,5 @@
-# Gatsby Theme Intro Example
+# Gatsby Theme
 
-A usage of [gatsby-theme-intro](https://github.com/wkocjan/gatsby-theme-intro) that does nothing but use the theme.
+A usage of that does nothing but use the theme.
+
 # portfolio-site
