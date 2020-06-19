@@ -5,7 +5,7 @@
   profession: Frontend Engineer
   image: images/profile.jpg
   location: San Francisco Bay Area, USA
-  relocation: true
+  relocation: false
   company: Lift Agency
   for_hire: true
   focus: Learning PWAs
