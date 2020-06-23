@@ -1,11 +1,11 @@
-import React, { useRef, useState } from "react"
-import { ProfileType } from "../../types"
-import "./contact-form.css"
+import React, { useRef, useState } from 'react';
+import { ProfileType } from '../../types';
+import './contact-form.css';
 
 const ContactForm = ({ email, budget }) => {
-  const [isInquiry, setIsInquiry] = useState(false)
-  const [selectedBudget, setSelectedBudget] = useState(budget.default)
-  const inquiryDetails = useRef(null)
+  const [isInquiry, setIsInquiry] = useState(false);
+  const [selectedBudget, setSelectedBudget] = useState(budget.default);
+  const inquiryDetails = useRef(null);
 
   return (
     <>
@@ -15,8 +15,11 @@ const ContactForm = ({ email, budget }) => {
       >
         Contact
       </h5>
-
-      <form
+      <h3 className="font-bold">Send me a message!</h3>
+      <a className="underline" href="mailto:usmanc80@gmail.com">
+        Usmanc80@gmail.com
+      </a>
+      {/* <form
         action={`https://formspree.io/${email}`}
         className="flex flex-wrap"
         method="post"
@@ -88,7 +91,7 @@ const ContactForm = ({ email, budget }) => {
                   max={budget.max}
                   min={budget.min}
                   name="budget"
-                  onChange={e => setSelectedBudget(e.currentTarget.value)}
+                  onChange={(e) => setSelectedBudget(e.currentTarget.value)}
                   step="1"
                   type="range"
                 />
@@ -139,14 +142,14 @@ const ContactForm = ({ email, budget }) => {
             />
           </div>
         </div>
-      </form>
+      </form> */}
     </>
-  )
-}
+  );
+};
 
 ContactForm.propTypes = {
   budget: ProfileType.budget,
   email: ProfileType.email,
-}
+};
 
-export default ContactForm
+export default ContactForm;
