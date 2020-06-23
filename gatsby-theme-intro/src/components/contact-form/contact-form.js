@@ -9,7 +9,7 @@ const ContactForm = ({ email, budget }) => {
         className="font-header font-semibold text-front text-sm uppercase mt-12 mb-3"
         id="contact"
       >
-        Contact
+        CONTACT
       </h5>
       <h3 className="font-bold">Send me a message!</h3>
       <a className="underline" href="mailto:usmanc80@gmail.com">
