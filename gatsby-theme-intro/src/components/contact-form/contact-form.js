@@ -11,7 +11,7 @@ const ContactForm = ({ email, budget }) => {
       >
         CONTACT
       </h5>
-      <h3 className="font-bold">Send me a message</h3>
+      <h3 className="font-bold">Send me a message!</h3>
       <a className="underline" href="mailto:usmanc80@gmail.com">
         Usmanc80@gmail.com
       </a>
