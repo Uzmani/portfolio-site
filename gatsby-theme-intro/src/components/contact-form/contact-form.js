@@ -12,7 +12,7 @@ const ContactForm = ({ email, budget }) => {
         Contact
       </h5>
 
-      <h3>Send me a message</h3>
+      <h3>Send me a message!</h3>
       <a href="mailto:usmanc80@gmail.com">Usmanc80@gmail.com</a>
     </>
   );
